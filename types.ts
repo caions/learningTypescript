@@ -54,3 +54,11 @@ car = {
   nome:"Monza",
   ano: 1980
 }
+
+// Type inferece
+let inference = "mensagem"
+inference = "outra mensagem"
+// inference = 123 erro
+window.addEventListener("click",(e)=>{ //e = MouseEvent
+  console.log(e.target)
+})
