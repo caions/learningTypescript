@@ -8,15 +8,15 @@ type identidade = {
 
 type Heroirevelado = heroi & identidade
 
-const homemDeFerro: Heroirevelado = {
-  nome: "Tony",
-  poder: "Intelectual,filantropo..."
-}
-
 const homeAranha: heroi = {
   poder: "Escalar paredes",
 }
 
 const superman: heroi = {
   poder: "todos"
+}
+
+const homemDeFerro: Heroirevelado = {
+  nome: "Tony",
+  poder: "Intelectual,filantropo..."
 }
