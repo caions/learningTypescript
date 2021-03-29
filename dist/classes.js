@@ -17,6 +17,6 @@ class programador extends ticket {
     }
 }
 const a = new programador("caio", "javascript", "criar o visual do site", "5 dias", "Doing");
-console.log(a);
-a.setStatus = "Test";
-console.log(a);
+// console.log(a)
+// a.setStatus = "Test"
+// console.log(a)
